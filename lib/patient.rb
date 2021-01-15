@@ -12,7 +12,7 @@ class Patient
   end
 
   def songs
-    Appointment.all.select {|Appointment| song.doctor == self}
+    Appointment.all.select {|appointment| appointment.patient == self}
   end
 
   def artists
