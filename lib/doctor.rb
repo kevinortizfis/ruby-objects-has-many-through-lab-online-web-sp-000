@@ -16,7 +16,7 @@ class Doctor
   end
 
   def appointments
-    Appointment.all.select {|song| song.artist == self}
+    Appointment.all.select {|apt| apt.Doctor == self}
   end
 
   def genres
