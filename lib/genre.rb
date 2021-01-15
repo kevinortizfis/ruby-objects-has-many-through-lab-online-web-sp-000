@@ -1,5 +1,5 @@
 class Genre
-  @@all
+  @@all = []
 
   def initialize(name)
     @@all << self
