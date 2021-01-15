@@ -19,7 +19,7 @@ class Doctor
     Appointment.all.select {|apt| apt.Doctor == self}
   end
 
-  def genres
+  def patients
     songs.map do |song|
       song.genre
     end
