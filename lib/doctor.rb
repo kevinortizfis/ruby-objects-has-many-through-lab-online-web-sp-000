@@ -20,7 +20,7 @@ class Doctor
   end
 
   def patients
-    appointments.map do |song|
+    appointments.map do |apts|
       song.genre
     end
   end
