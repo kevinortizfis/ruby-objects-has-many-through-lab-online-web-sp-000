@@ -12,7 +12,7 @@ class Genre
   end
 
   def artists
-    Song.all.select {|artist| artist == self}
+    Song.all.select {|genre| artist == self}
   end
 
 end
