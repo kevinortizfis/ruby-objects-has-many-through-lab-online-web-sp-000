@@ -16,7 +16,7 @@ class Genre
   end
 
   def genres
-    songs.map do |songs|
+    songs.map do |song|
       songs.genre
     end
   end
