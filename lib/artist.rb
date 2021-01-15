@@ -20,7 +20,8 @@ class Artist
   end
 
   def genres
-    Songs.all.select {|artist| artist == self}
+    songs.map do ||
+    end
   end
-  
+
 end
