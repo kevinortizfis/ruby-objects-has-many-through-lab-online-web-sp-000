@@ -11,7 +11,7 @@ class Doctor
     @@all
   end
 
-  def new_appointment(name,patient)
+  def new_appointment(date,patient)
     Song.new(name,self,patient)
   end
 
