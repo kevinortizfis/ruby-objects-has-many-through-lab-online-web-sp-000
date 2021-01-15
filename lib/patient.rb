@@ -17,7 +17,7 @@ class Patient
 
   def doctors
     appointments.map do |apts|
-      song.artist
+      apts.artist
     end
   end
 
