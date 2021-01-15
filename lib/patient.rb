@@ -15,7 +15,7 @@ class Patient
     Appointment.all.select {|appointment| appointment.patient == self}
   end
 
-  def artists
+  def doctors
     songs.map do |song|
       song.artist
     end
