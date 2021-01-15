@@ -25,7 +25,6 @@ class Artist
   #   songs.map do |songs|
   #     songs.genre == self
   #   end
-
-  end
+#  end
 
 end
